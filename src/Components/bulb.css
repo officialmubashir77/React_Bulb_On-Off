@@ -1,0 +1,58 @@
+.mainDiv{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.bulbImgDiv img {
+
+    width: 200px;
+
+}
+
+.bulbImgDiv{
+    margin-top: 60px;
+}
+
+.btnDiv{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnDiv button {
+
+margin: 10px;
+width: 120px;
+height: 35px;
+font-weight: bold;
+border-radius: 12px;
+border: none;
+font-size: 18px;
+color: black;
+
+}
+
+.btnDiv button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+    /* color: white; */
+}
+
+.btnDiv button:first-child{
+
+    background-color: white;
+    color: black;
+}
+/* 
+.btnDiv button:last-child{
+
+    background-color: #9A9A9A;
+} */

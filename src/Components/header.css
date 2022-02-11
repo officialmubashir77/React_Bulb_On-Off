@@ -1,0 +1,27 @@
+.bulbHeder h1 {
+    text-align: center;
+    color: black;
+    background-color: #FFCD0f;
+    text-transform: uppercase;
+    word-spacing: 15px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+
+
+.bulbHeder:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.bulbHeder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #FFCD0f;
+    height: 70px;
+}
